@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="0dp"
+    android:visibility="visible"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <!--<TextView-->
+    <!--android:id="@id/id"-->
+    <!--android:layout_width="185dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingBottom="2dip"-->
+    <!--android:textColor="@color/colorAccent" />-->
+    <!--<TextView-->
+    <!--android:id="@id/competitionId"-->
+    <!--android:layout_width="185dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingBottom="2dip"-->
+    <!--android:textColor="@color/colorAccent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/homeTeamName"-->
+    <!--android:layout_width="185dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingBottom="2dip"-->
+    <!--android:textColor="@color/colorAccent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/homeTeamId"-->
+    <!--android:layout_width="180dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingBottom="2dip"-->
+    <!--android:paddingTop="6dip"-->
+    <!--android:textColor="@color/colorPrimaryDark"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--android:id="@id/awayTeamId"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="#5d5d5d"-->
+    <!--android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@id/country1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingRight="0.2dp"
+        android:paddingBottom="2dip"
+        android:paddingLeft="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_toLeftOf="@+id/textView" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@id/date"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="90dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@color/colorAccent" />&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+
+
+    <TextView
+        android:id="@id/country1"
+        android:layout_width="190dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp"
+        android:layout_weight="0.52"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="VS"
+        android:textAlignment="center"
+        android:layout_above="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@id/name"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+
+        android:layout_weight="0.66"
+        android:paddingBottom="2dip"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView" />
+
+    <TextView
+        android:id="@id/name1"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

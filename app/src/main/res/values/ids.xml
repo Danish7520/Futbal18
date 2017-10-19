@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="country_id" type="id">country id</item>
+    <item name="country_name" type="id">country name</item>
+    <item name="league_id" type="id">league id</item>
+    <item name="league_name" type="id">league name</item>
+    <item name="id" type="id">id</item>
+    <item name="competitionId" type="id">competitionId</item>
+    <item name="date" type="id">date</item>
+    <item name="homeTeamName" type="id">homeTeamName</item>
+    <item name="matchday" type="id">matchday</item>
+    <item name="homeTeamId" type="id">homeTeamId</item>
+    <item name="awayTeamName" type="id">awayTeamName</item>
+    <item name="awayTeamId" type="id">awayTeamId</item>
+    <item name="competitors" type="id">competitors</item>
+    <item name="scheduled" type="id">scheduled</item>
+    <item name="name" type="id">name</item>
+    <item name="name1" type="id">name1</item>
+    <item name="country" type="id">country</item>
+    <item name="country1" type="id">country1</item>
+    <item name="country_code" type="id">country_code</item>
+</resources>
